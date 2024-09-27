@@ -1,0 +1,233 @@
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~
+$ ls
+ AppData/                                                                                      'OneDrive - Capgemini'/
+'Application Data'@                                                                             PSAppDeployToolkit/
+ Contacts/                                                                                      Pictures/
+ Cookies@                                                                                       Postman/
+ Desktop/                                                                                       PrintHood@
+ Documents/                                                                                     Recent@
+ Downloads/                                                                                     STS_workspace/
+ Favorites/                                                                                    'Saved Games'/
+ IdeaProjects/                                                                                  Searches/
+ IntelGraphicsProfiles/                                                                         SendTo@
+ Links/                                                                                        'Start Menu'@
+'Local Settings'@                                                                               Templates@
+ Microservices-Sample-using-SpringBoot-SpringCloud-Eureka-and-Zuul-master/                      Videos/
+ Music/                                                                                         angular/
+'My Documents'@                                                                                 anguler17/
+ NTUSER.DAT                                                                                     default-soapui-workspace.xml
+ NTUSER.DAT{8f5d911a-5aa5-11ef-b4e8-d03c1f10d370}.TM.blf                                        elasticaearch/
+ NTUSER.DAT{8f5d911a-5aa5-11ef-b4e8-d03c1f10d370}.TMContainer00000000000000000001.regtrans-ms   kafka/
+ NTUSER.DAT{8f5d911a-5aa5-11ef-b4e8-d03c1f10d370}.TMContainer00000000000000000002.regtrans-ms   ntuser.dat.LOG1
+ NTUSER.DAT{d330798d-4e9f-11ee-b4c5-080027690cf1}.TM.blf                                        ntuser.dat.LOG2
+ NTUSER.DAT{d330798d-4e9f-11ee-b4c5-080027690cf1}.TMContainer00000000000000000001.regtrans-ms   ntuser.ini
+ NTUSER.DAT{d330798d-4e9f-11ee-b4c5-080027690cf1}.TMContainer00000000000000000002.regtrans-ms   package-lock.json
+ NetHood@                                                                                       soapui-settings.xml
+ OneDrive/                                                                                      springproject/
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~
+$ cd Desktop/
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop
+$ ls
+ CG_AUG_2024_46363399_Payslip.pdf           'Screenshot 2024-08-27 120027.png'               'Screenshot 2024-09-18 184911pppppppp.png'
+ Flight-management.postman_collection.json  'Screenshot 2024-09-06 144237 vm.png'            'Screenshot 2024-09-18 185034uuuuu.png'
+'JLP Account.txt'                           'Screenshot 2024-09-17 100507-pppp.png'          'Time sheet.png'
+'JLP Document'/                             'Screenshot 2024-09-17 101257uuuuu.png'           desktop.ini
+ Postman.lnk*                               'Screenshot 2024-09-17 110326iiiiiiiiiiiii.png'   jlpaccount_network.png
+'Screenshot 2024-08-08 113928000.png'       'Screenshot 2024-09-17 111824OOOO.png'
+'Screenshot 2024-08-08 114045ttt.png'       'Screenshot 2024-09-18 184736kkkk.png'
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop
+$ https://github.com/bhup9008/javaproject.git
+bash: https://github.com/bhup9008/javaproject.git: No such file or directory
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop
+$ cd JLP
+JLP Account.txt         JLP Document/           jlpaccount_network.png
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop
+$ cd JLP Document
+bash: cd: too many arguments
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop
+$ cd test
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$
+^C
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$ https://github.com/bhup9008/javaproject.git
+bash: https://github.com/bhup9008/javaproject.git: No such file or directory
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$ git clone https://github.com/bhup9008/javaproject.git
+Cloning into 'javaproject'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test
+$ cd javaproject/
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git branch
+* master
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Java Prog.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git add .
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Java Prog.txt
+
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git commit -m 'first java file'
+[master 8e7c13d] first java file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Java Prog.txt
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git pull
+Already up to date.
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 97.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bhup9008/javaproject.git
+   78f41fe..8e7c13d  master -> master
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Java Prog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git commit -m 'update'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Java Prog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git push origin master
+Everything up-to-date
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git push
+Everything up-to-date
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git pull
+Already up to date.
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git add .
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git commit -m 'update'
+[master 808424e] update
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 146.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bhup9008/javaproject.git
+   8e7c13d..808424e  master -> master
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (master)
+$ git checkout -b change-123
+Switched to a new branch 'change-123'
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$ git push origin master
+Everything up-to-date
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$ git push origin change-123
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'change-123' on GitHub by visiting:
+remote:      https://github.com/bhup9008/javaproject/pull/new/change-123
+remote:
+To https://github.com/bhup9008/javaproject.git
+ * [new branch]      change-123 -> change-123
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$ git add .
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$ git commit -m 'change 123'
+[change-123 2b586b4] change 123
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$ git push origin change-123
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 77.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bhup9008/javaproject.git
+   808424e..2b586b4  change-123 -> change-123
+
+bhupenku@LIN-5CG1154CGZ MINGW64 ~/Desktop/test/javaproject (change-123)
+$
